@@ -23,8 +23,6 @@ The **Transcript Editor** is a web application built with **React** and **Tailwi
 ```bash
 src/
 │
-├── components/
-│   └── TranscriptEditor.js    # Main component to handle transcript playback and editing
 ├── App.js                     # Entry point for the application
 ├── index.js                   # Renders the React application
 └── styles/
@@ -115,10 +113,6 @@ The build files will be output to the `build/` directory, which you can deploy t
 - **Real-time Playback Control**: Add the ability to pause, skip forward/backward, and adjust playback speed.
 - **Multiple Transcript Support**: Allow loading and switching between multiple transcripts.
 - **Advanced Editing**: Include more comprehensive editing features, such as time adjustment for each word.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
